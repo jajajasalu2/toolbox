@@ -25,5 +25,3 @@ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.0.1
 ```
 diff -qr dir1 dir2
 ```
-
-The above will only specify what files/directories are present in one and not in the other. For diff between the contents of respective files in different directories:
