@@ -1,4 +1,4 @@
-# Debian specific commands
+# Debian
 
 ## Find available packages
 
