@@ -25,3 +25,25 @@ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 root@192.168.0.1
 ```
 diff -qr dir1 dir2
 ```
+
+### Setup an HTTP Server
+
+Python2:
+
+```
+python -m SimpleHTTPServer --directory whatever 8080
+```
+
+Python3:
+
+```
+python -m http.server --directory whatever 8080
+```
+
+### Recursively download a directory from a server
+
+[Stackoverflow](https://stackoverflow.com/questions/273743/using-wget-to-recursively-fetch-a-directory-with-arbitrary-files-in-it)
+
+```
+wget -r -np -R "index.html*" http://example.com/configs/.vim/
+```
