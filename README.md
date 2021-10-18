@@ -1,3 +1,3 @@
 # Toolbox
 
-A collection of one-two-whatever-liners and blogs/writeups for coding, hacking, \*nix and everything technical.
+A collection of cheatsheets and blogs/writeups for coding, hacking, \*nix and everything technical.
