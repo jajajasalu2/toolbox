@@ -11,3 +11,9 @@ git checkout -p
 ```
 git log --oneline --stat
 ```
+
+### Stage modified files
+
+```
+git diff -u --name-only | xargs git add
+```
