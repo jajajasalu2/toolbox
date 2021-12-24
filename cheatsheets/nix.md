@@ -47,3 +47,9 @@ python -m http.server --directory whatever 8080
 ```
 wget -r -np -R "index.html*" http://example.com/configs/.vim/
 ```
+
+### Compare text files word-to-word
+
+```
+wdiff file1.txt file2.txt
+```
