@@ -53,3 +53,20 @@ wget -r -np -R "index.html*" http://example.com/configs/.vim/
 ```
 wdiff file1.txt file2.txt
 ```
+
+### Checking hardware & system information
+
+[Medium link](https://medium.com/technology-hits/basic-linux-commands-to-check-hardware-and-system-information-62a4436d40db)
+
+```
+uname -a
+lscpu
+lshw
+hwinfo
+lsscsi
+lsusb
+lsblk
+df -H
+cat /proc/cpuinfo
+inxi -F
+```
