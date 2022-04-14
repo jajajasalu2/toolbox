@@ -82,7 +82,7 @@ blacklist <module_name>
 one-liner:
 
 ```
-echo "blacklist <module_name> >> /etc/modprobe/blacklist.conf"
+echo "blacklist <module_name>" >> /etc/modprobe/blacklist.conf
 ```
 
 Can't add disparaging comments about why the module is awful with the above though XD
