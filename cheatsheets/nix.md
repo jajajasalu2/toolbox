@@ -70,3 +70,19 @@ df -H
 cat /proc/cpuinfo
 inxi -F
 ```
+
+### Blacklist a kernel module
+
+Get the module name using lsmod, then add it to `/etc/modprobe/blacklist.conf` like so:
+
+```
+blacklist <module_name>
+```
+
+one-liner:
+
+```
+echo "blacklist <module_name> >> /etc/modprobe/blacklist.conf"
+```
+
+Can't add disparaging comments about why the module is awful with the above though XD
