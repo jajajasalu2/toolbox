@@ -86,3 +86,12 @@ echo "blacklist <module_name>" >> /etc/modprobe/blacklist.conf
 ```
 
 Can't add disparaging comments about why the module is awful with the above though XD
+
+
+### Make a directory writable and "sticky"
+
+“Sticky” means that even if multiple users have write permission on a directory, only the owner of a file can delete the file within a sticky directory. (src: LFS v11.1).
+
+```
+chmod -v a+wt <dir>
+```
