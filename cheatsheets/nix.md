@@ -95,3 +95,15 @@ Can't add disparaging comments about why the module is awful with the above thou
 ```
 chmod -v a+wt <dir>
 ```
+
+### Change the filesystem type of a device
+
+```
+mkfs -v -t ext4 /dev/<xxx>
+```
+
+### Mount a partition
+
+```
+mount -v -t ext4 /dev/<yyy> /mnt/test/<dir>
+```
