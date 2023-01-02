@@ -37,3 +37,17 @@ Then unstage the change:
 ```
 git reset
 ```
+
+### Track the entire history of a function or line(s)
+
+```
+git log -L line1,line2:path/to/file.c
+git log -L :func_name:path/to/file.c
+```
+
+For example:
+
+```
+git log -L 3045,3094:net/tcp_ipv4.c
+git log -L :tcp_v4_connect:net/tcp_ipv4.c
+```
