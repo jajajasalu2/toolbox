@@ -40,6 +40,8 @@ git reset
 
 ### Track the entire history of a function or line(s)
 
+As opposed to git blame which points to just the last commit.
+
 ```
 git log -L line1,line2:path/to/file.c
 git log -L :func_name:path/to/file.c
